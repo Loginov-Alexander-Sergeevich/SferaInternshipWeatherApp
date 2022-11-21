@@ -10,7 +10,6 @@
 		4E1ABAC3292B2CB800C43404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ABAC2292B2CB800C43404 /* AppDelegate.swift */; };
 		4E1ABAC5292B2CB800C43404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ABAC4292B2CB800C43404 /* SceneDelegate.swift */; };
 		4E1ABAC7292B2CB800C43404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ABAC6292B2CB800C43404 /* ViewController.swift */; };
-		4E1ABACA292B2CB800C43404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1ABAC8292B2CB800C43404 /* Main.storyboard */; };
 		4E1ABACC292B2CB900C43404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1ABACB292B2CB900C43404 /* Assets.xcassets */; };
 		4E1ABACF292B2CB900C43404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1ABACD292B2CB900C43404 /* LaunchScreen.storyboard */; };
 		4E1ABADA292B2CBA00C43404 /* SferaInternshipWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ABAD9292B2CBA00C43404 /* SferaInternshipWeatherAppTests.swift */; };
@@ -40,7 +39,6 @@
 		4E1ABAC2292B2CB800C43404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E1ABAC4292B2CB800C43404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4E1ABAC6292B2CB800C43404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E1ABAC9292B2CB800C43404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E1ABACB292B2CB900C43404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E1ABACE292B2CB900C43404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E1ABAD0292B2CB900C43404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +97,9 @@
 		4E1ABAC1292B2CB800C43404 /* SferaInternshipWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				4E1ABAC2292B2CB800C43404 /* AppDelegate.swift */,
-				4E1ABAC4292B2CB800C43404 /* SceneDelegate.swift */,
 				4E1ABAC6292B2CB800C43404 /* ViewController.swift */,
-				4E1ABAC8292B2CB800C43404 /* Main.storyboard */,
-				4E1ABACB292B2CB900C43404 /* Assets.xcassets */,
-				4E1ABACD292B2CB900C43404 /* LaunchScreen.storyboard */,
-				4E1ABAD0292B2CB900C43404 /* Info.plist */,
+				4E1ABAF3292B2E3400C43404 /* App */,
+				4E1ABAF2292B2D7B00C43404 /* SapportingFiles */,
 			);
 			path = SferaInternshipWeatherApp;
 			sourceTree = "<group>";
@@ -125,6 +119,25 @@
 				4E1ABAE5292B2CBA00C43404 /* SferaInternshipWeatherAppUITestsLaunchTests.swift */,
 			);
 			path = SferaInternshipWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		4E1ABAF2292B2D7B00C43404 /* SapportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4E1ABACB292B2CB900C43404 /* Assets.xcassets */,
+				4E1ABACD292B2CB900C43404 /* LaunchScreen.storyboard */,
+				4E1ABAD0292B2CB900C43404 /* Info.plist */,
+			);
+			path = SapportingFiles;
+			sourceTree = "<group>";
+		};
+		4E1ABAF3292B2E3400C43404 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E1ABAC2292B2CB800C43404 /* AppDelegate.swift */,
+				4E1ABAC4292B2CB800C43404 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +246,6 @@
 			files = (
 				4E1ABACF292B2CB900C43404 /* LaunchScreen.storyboard in Resources */,
 				4E1ABACC292B2CB900C43404 /* Assets.xcassets in Resources */,
-				4E1ABACA292B2CB800C43404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4E1ABAC8292B2CB800C43404 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E1ABAC9292B2CB800C43404 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4E1ABACD292B2CB900C43404 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,18 +443,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SferaInternshipWeatherApp/Info.plist;
+				INFOPLIST_FILE = SferaInternshipWeatherApp/SapportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.SferaInternshipWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,18 +470,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SferaInternshipWeatherApp/Info.plist;
+				INFOPLIST_FILE = SferaInternshipWeatherApp/SapportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.SferaInternshipWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -495,7 +497,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +517,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +536,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +555,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G52SNX4NPA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.loginov.HouseWeather.SferaInternshipWeatherAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
